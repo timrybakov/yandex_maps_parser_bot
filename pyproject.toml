@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "yandex-maps-parser-bot"
+version = "0.1.0"
+description = ""
+authors = ["timrybakov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.13.0"
+selenium = "^4.24.0"
+redis = "^5.0.8"
+pydantic-settings = "^2.5.2"
+isort = "^5.13.2"
+databases = "^0.9.0"
+alembic = "^1.13.2"
+psycopg2 = "^2.9.9"
+celery = {extras = ["redis"], version = "^5.4.0"}
+asyncpg = "^0.29.0"
+asgiref = "^3.8.1"
+tablib = "^3.6.1"
+webdriver-manager = "^4.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
